@@ -1,0 +1,7 @@
+votredomaine.com {
+    reverse_proxy localhost:5000
+    route /api-docs* {
+        uri strip_prefix /api-docs
+        reverse_proxy localhost:5000/api-docs
+    }
+}
