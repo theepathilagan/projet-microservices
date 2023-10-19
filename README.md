@@ -1,3 +1,15 @@
+Etapes à réaliser pour executer le projet sur son poste local :
+
+1- Téléchargez ce répértoire git sur votre PC.
+
+2- A la racine du projet, executez la commande suivante : 
+```
+docker compose up
+```
+3- Une fois l'architecture microservices lancée, il vous suffit de vous rendre sur la page http://localhost:5173
+
+---
+
 Projet de Gestion des Tâches - Architecture Microservices:
 
 Ce projet de gestion des tâches a été conçu en utilisant l'architecture microservices, permettant une scalabilité flexible et une maintenance aisée des différents composants. Voici un aperçu de l'architecture et des technologies utilisées :
